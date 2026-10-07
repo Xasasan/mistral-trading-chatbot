@@ -1,0 +1,1939 @@
+{
+  "dataset": "us_stock_trading_qa",
+  "description": "3000 Q&A pairs for US stock market trading and investment chatbot (first 100 shown)",
+  
+  "pairs": [
+    {
+      "id": 0,
+      "question": "What is the Pattern Day Trader (PDT) rule in the US stock market?",
+      "answer": "The PDT rule applies to margin accounts under $25,000 equity. You are limited to 3 day trades in any rolling 5-business-day period. Violating it triggers a 90-day trading restriction unless you deposit additional funds to reach $25,000."
+    },
+    {
+      "id": 1,
+      "question": "How are short-term and long-term capital gains taxed on US stocks?",
+      "answer": "Short-term gains (held 1 year or less) are taxed as ordinary income (10–37%). Long-term gains (held over 1 year) are taxed at 0%, 15%, or 20% depending on your taxable income bracket."
+    },
+    {
+      "id": 2,
+      "question": "What is the wash-sale rule and how does it affect US stock losses?",
+      "answer": "The wash-sale rule disallows a tax loss if you sell a stock at a loss and buy the same or substantially identical stock within 30 days before or after the sale. The loss is added to the cost basis of the new shares."
+    },
+    {
+      "id": 3,
+      "question": "What are the main differences between NYSE and NASDAQ?",
+      "answer": "NYSE is an auction market with a physical floor and specialists. NASDAQ is a fully electronic dealer market driven by market makers. Most technology stocks trade on NASDAQ while many blue-chip industrials trade on NYSE."
+    },
+    {
+      "id": 4,
+      "question": "How does dollar-cost averaging work for investing in US stocks?",
+      "answer": "Dollar-cost averaging means investing a fixed dollar amount at regular intervals regardless of price. It reduces the impact of volatility and is a popular long-term strategy for S&P 500 or Nasdaq-100 ETFs."
+    },
+    {
+      "id": 5,
+      "question": "What are circuit breakers in the US stock market?",
+      "answer": "Circuit breakers halt trading market-wide if the S&P 500 drops 7% (Level 1), 13% (Level 2), or 20% (Level 3). Level 1 and 2 cause 15-minute halts; Level 3 closes the market for the day."
+    },
+    {
+      "id": 6,
+      "question": "Can fundamental analysis be combined with technical analysis for US stocks?",
+      "answer": "Yes. Fundamental analysis reviews company financials and SEC filings while technical analysis studies price charts and volume. Using both helps confirm high-probability setups."
+    },
+    {
+      "id": 7,
+      "question": "How do options contracts work on US stocks?",
+      "answer": "One standard options contract controls 100 shares. Calls give the right to buy, puts give the right to sell at the strike price by expiration. They are used for hedging, income generation, or speculation."
+    },
+    {
+      "id": 8,
+      "question": "What are blue-chip stocks in the US market?",
+      "answer": "Blue-chip stocks are large, financially stable companies with long histories of reliable earnings and dividends, such as Apple, Microsoft, Johnson & Johnson, and Coca-Cola."
+    },
+    {
+      "id": 9,
+      "question": "What is the role of the Federal Reserve in influencing US stock prices?",
+      "answer": "The Fed sets the federal funds rate and conducts quantitative easing or tightening. Rate cuts generally support higher stock prices while rate hikes tend to pressure valuations."
+    },
+    {
+      "id": 10,
+      "question": "What is a good risk management rule for day trading US stocks?",
+      "answer": "The 1% rule is widely recommended: never risk more than 1% of your total account capital on any single trade. Many traders also set a daily loss limit of 2–3%."
+    },
+    {
+      "id": 11,
+      "question": "How does the SEC regulate US stock trading?",
+      "answer": "The SEC enforces fair disclosure through EDGAR filings, prohibits insider trading and market manipulation, and requires all brokers to register with the SEC and FINRA."
+    },
+    {
+      "id": 12,
+      "question": "What are dividend aristocrats?",
+      "answer": "Dividend aristocrats are S&P 500 companies that have increased their dividend payout every year for at least 25 consecutive years. They are popular among income-focused investors."
+    },
+    {
+      "id": 13,
+      "question": "Can you trade US stocks outside regular market hours?",
+      "answer": "Yes. Pre-market trading runs from 4:00 AM to 9:30 AM ET and after-hours from 4:00 PM to 8:00 PM ET. Liquidity is lower and spreads are wider during these sessions."
+    },
+    {
+      "id": 14,
+      "question": "What are the most popular US stock market indices for beginners?",
+      "answer": "The three major indices are the Dow Jones Industrial Average (30 stocks), S&P 500 (500 large-cap stocks), and Nasdaq Composite (tech-heavy). Most beginners start with low-cost ETFs tracking these."
+    },
+    {
+      "id": 15,
+      "question": "What is an IPO in the US stock market?",
+      "answer": "An Initial Public Offering (IPO) is when a private company first sells shares to the public on NYSE or NASDAQ after filing an S-1 registration with the SEC."
+    },
+    {
+      "id": 16,
+      "question": "How do quarterly earnings reports affect US stock prices?",
+      "answer": "Companies release EPS and revenue results after the close. Beating or missing Wall Street estimates, along with forward guidance, often causes significant price movement the next day."
+    },
+    {
+      "id": 17,
+      "question": "What are the risks of trading on margin in a US brokerage account?",
+      "answer": "Margin allows borrowing up to 50% of a position, but it amplifies both gains and losses. You can face margin calls and forced liquidation if equity falls below maintenance requirements."
+    },
+    {
+      "id": 18,
+      "question": "What is Level 2 market data for US stocks?",
+      "answer": "Level 2 shows real-time bid and ask prices with share sizes from multiple market makers. It helps traders gauge supply/demand and potential support/resistance levels."
+    },
+    {
+      "id": 19,
+      "question": "What are the best beginner ETFs for US stock market exposure?",
+      "answer": "Popular low-cost options include SPY or VOO (S&P 500), QQQ (Nasdaq-100), and VTI (total US stock market). They provide instant diversification with very low expense ratios."
+    },
+    {
+      "id": 20,
+      "question": "How do stock splits work in the US market?",
+      "answer": "A stock split increases the number of shares while reducing the price per share proportionally. For example, a 2-for-1 split doubles shares and halves the price, keeping total value unchanged."
+    },
+    {
+      "id": 21,
+      "question": "What is the difference between a market order and a limit order for US stocks?",
+      "answer": "A market order executes immediately at the best available price, while a limit order sets a specific price to buy or sell. Limit orders may not fill if the price is not reached."
+    },
+    {
+      "id": 22,
+      "question": "How does short selling work in the US stock market?",
+      "answer": "Short selling involves borrowing shares to sell at the current price, hoping to buy them back later at a lower price. It carries unlimited risk if the stock price rises."
+    },
+    {
+      "id": 23,
+      "question": "What are penny stocks and why are they risky?",
+      "answer": "Penny stocks trade below $5 per share and often have low liquidity, high volatility, and less regulatory oversight. They can be prone to manipulation and scams."
+    },
+    {
+      "id": 24,
+      "question": "How do dividends impact total return on US stocks?",
+      "answer": "Dividends provide income and can significantly boost total return over time through reinvestment, especially for long-term investors in dividend-paying stocks."
+    },
+    {
+      "id": 25,
+      "question": "What is the role of a market maker in US stock trading?",
+      "answer": "Market makers provide liquidity by continuously quoting bid and ask prices. They facilitate smooth trading and help narrow spreads, especially for less liquid stocks."
+    },
+    {
+      "id": 26,
+      "question": "How do you calculate the price-to-earnings (P/E) ratio for US stocks?",
+      "answer": "P/E ratio is calculated by dividing the current stock price by the earnings per share (EPS). It indicates how much investors are willing to pay per dollar of earnings."
+    },
+    {
+      "id": 27,
+      "question": "What are the tax implications of selling US stocks at a gain?",
+      "answer": "Gains on US stocks are subject to capital gains tax. Short-term gains (held 1 year or less) are taxed as ordinary income, while long-term gains (held over 1 year) are taxed at lower rates."
+    },
+    {
+      "id": 28,
+      "question": "What is a stop-loss order and how does it work for US stocks?",
+      "answer": "A stop-loss order automatically sells a stock when it reaches a specified price below the current market price. It helps limit potential losses on a position."
+    },
+    {
+      "id": 29,
+      "question": "How do you read a stock chart for technical analysis in the US market?",
+      "answer": "Stock charts display price movements over time. Key elements include candlesticks, volume bars, moving averages, and support/resistance levels to identify trends and potential entry/exit points."
+    },
+    {
+      "id": 30,
+      "question": "What are the benefits of investing in index funds for US stocks?",
+      "answer": "Index funds offer broad market exposure, low fees, and passive management. They typically outperform actively managed funds over the long term due to lower costs and reduced turnover."
+    },
+    {
+      "id": 31,
+      "question": "What is the difference between a traditional IRA and a Roth IRA for US stock investing?",
+      "answer": "Traditional IRAs offer tax-deductible contributions and tax-deferred growth, while Roth IRAs are funded with after-tax dollars and offer tax-free growth and withdrawals in retirement."
+    },
+    {
+      "id": 32,
+      "question": "How do you evaluate the financial health of a US company before investing?",
+      "answer": "Key metrics include revenue growth, profit margins, debt levels, cash flow, return on equity, and competitive position. Reviewing SEC filings and earnings reports is also essential."
+    },
+    {
+      "id": 33,
+      "question": "What are the most common technical indicators used for trading US stocks?",
+      "answer": "Popular indicators include Moving Averages (MA), Relative Strength Index (RSI), Moving Average Convergence Divergence (MACD), Bollinger Bands, and Fibonacci retracements."
+    },
+    {
+      "id": 34,
+      "question": "How does insider trading affect US stock prices?",
+      "answer": "Insider trading involves buying or selling based on non-public information. It can lead to significant price movements when discovered, and is illegal under SEC regulations."
+    },
+    {
+      "id": 35,
+      "question": "What is the role of dividends in a total return strategy for US stocks?",
+      "answer": "Dividends contribute to total return by providing regular income. Reinvesting dividends can compound returns over time, especially in dividend growth stocks."
+    },
+    {
+      "id": 36,
+      "question": "How do you use fundamental analysis to pick US stocks for long-term investment?",
+      "answer": "Fundamental analysis involves evaluating a company's financial statements, management quality, competitive advantages, industry trends, and valuation metrics to identify undervalued stocks with growth potential."
+    },
+    {
+      "id": 37,
+      "question": "What are the risks of investing in small-cap stocks in the US market?",
+      "answer": "Small-cap stocks can offer high growth potential but also come with higher volatility, lower liquidity, and greater risk of business failure compared to large-cap stocks."
+    },
+    {
+      "id": 38,
+      "question": "How do you set up a diversified portfolio of US stocks?",
+      "answer": "A diversified portfolio includes stocks from various sectors, industries, and market capitalizations. It may also include a mix of growth and value stocks to reduce risk and improve potential returns."
+    },
+    {
+      "id": 39,
+      "question": "What is the difference between growth stocks and value stocks in the US market?",
+      "answer": "Growth stocks are expected to grow earnings faster than the overall market and often trade at higher P/E ratios. Value stocks are considered undervalued based on fundamentals and may offer dividends."
+    },
+    {
+      "id": 40,
+      "question": "How do you use technical analysis to time entries and exits for US stocks?",
+      "answer": "Technical analysis involves studying price charts and indicators to identify trends, support/resistance levels, and potential reversal points. It can help traders time their buy and sell decisions."
+    },
+    {
+      "id": 41,
+      "question": "What are the benefits of using a robo-advisor for investing in US stocks?",
+      "answer": "Robo-advisors provide automated portfolio management based on your risk tolerance and goals. They offer low fees, tax-loss harvesting, and easy access to diversified portfolios."
+    },
+    {
+      "id": 42,
+      "question": "How do you calculate the dividend yield for a US stock?",
+      "answer": "Dividend yield is calculated by dividing the annual dividend per share by the current stock price. It indicates the return on investment from dividends alone."
+    },
+    {
+      "id": 43,
+      "question": "What is the difference between a bull market and a bear market in the US stock market?",
+      "answer": "A bull market is characterized by rising stock prices and investor optimism, while a bear market involves falling prices and pessimism. A decline of 20% or more typically defines a bear market."
+    },
+    {
+      "id": 44,
+      "question": "How do you use stop-loss orders to manage risk when trading US stocks?",
+      "answer": "Stop-loss orders automatically sell a stock when it reaches a specified price below the current market price. They help limit potential losses on a position."
+    },
+    {
+      "id": 45,
+      "question": "What are the most common mistakes made by beginner investors in US stocks?",
+      "answer": "Common mistakes include lack of diversification, trying to time the market, emotional trading, chasing hot stocks, and not having a clear investment plan."
+    },
+    {
+      "id": 46,
+      "question": "How do you evaluate the management team of a US company before investing?",
+      "answer": "Look for experience, track record of success, transparency, and alignment with shareholder interests. Reading interviews, earnings calls, and SEC filings can provide insights."
+    },
+    {
+      "id": 47,
+      "question": "What is the role of dividends in a total return strategy for US stocks?",
+      "answer": "Dividends contribute to total return by providing regular income. Reinvesting dividends can compound returns over time, especially in dividend growth stocks."
+    },
+    {
+      "id": 48,
+      "question": "How do you use fundamental analysis to pick US stocks for long-term investment?",
+      "answer": "Fundamental analysis involves evaluating a company's financial statements, management quality, competitive advantages, industry trends, and valuation metrics to identify undervalued stocks with growth potential."
+    },
+    {
+      "id": 49,
+      "question": "What are the risks of investing in small-cap stocks in the US market?",
+      "answer": "Small-cap stocks can offer high growth potential but also come with higher volatility, lower liquidity, and greater risk of business failure compared to large-cap stocks."
+    },
+    {
+      "id": 50,
+      "question": "How do you set up a diversified portfolio of US stocks?",
+      "answer": "A diversified portfolio includes stocks from various sectors, industries, and market capitalizations. It may also include a mix of growth and value stocks to reduce risk and improve potential returns."
+    },
+    {
+      "id": 20,
+      "question": "What is a stock in the US market?",
+      "answer": "A stock represents ownership in a US company listed on NYSE or NASDAQ. When you buy shares, you own a small piece of that company and may receive dividends or voting rights."
+    },
+    {
+      "id": 21,
+      "question": "What is the difference between a market order and a limit order?",
+      "answer": "A market order executes immediately at the current best price. A limit order only executes at your specified price or better, giving you price control but no guarantee of filling."
+    },
+    {
+      "id": 22,
+      "question": "What are stop-loss and stop-limit orders in US trading?",
+      "answer": "A stop-loss becomes a market order when the price hits your trigger. A stop-limit becomes a limit order at your specified price. Both help protect against big losses."
+    },
+    {
+      "id": 23,
+      "question": "What is a dividend and how is it paid in US stocks?",
+      "answer": "A dividend is a portion of company profits paid to shareholders, usually quarterly. Most US companies pay in cash directly to your brokerage account."
+    },
+    {
+      "id": 24,
+      "question": "What is a stock split in the US market?",
+      "answer": "A stock split increases the number of shares and lowers the price per share (e.g., 2-for-1). It does not change the total value of your investment."
+    },
+    {
+      "id": 25,
+      "question": "What is a brokerage account in the US?",
+      "answer": "A brokerage account is an account with a US broker (e.g., Fidelity, Charles Schwab, Robinhood) that lets you buy and sell stocks, ETFs, and options."
+    },
+    {
+      "id": 26,
+      "question": "What is the difference between a cash account and a margin account?",
+      "answer": "Cash accounts only let you trade with settled funds you already have. Margin accounts let you borrow money from the broker to buy more shares (subject to PDT and interest rules)."
+    },
+    {
+      "id": 27,
+      "question": "What are after-hours and pre-market trading hours in the US?",
+      "answer": "Pre-market: 4:00 AM – 9:30 AM ET. After-hours: 4:00 PM – 8:00 PM ET. Regular hours are 9:30 AM – 4:00 PM ET on weekdays."
+    },
+    {
+      "id": 28,
+      "question": "What is a 401(k) and how does it relate to US stock investing?",
+      "answer": "A 401(k) is an employer-sponsored retirement plan that lets you invest pre-tax dollars into US stocks, ETFs, and mutual funds. Contributions reduce your taxable income."
+    },
+    {
+      "id": 29,
+      "question": "What is an IRA for US stock investing?",
+      "answer": "An Individual Retirement Account (IRA) lets you invest in US stocks and ETFs with tax advantages. Traditional IRA contributions may be tax-deductible; Roth IRA grows tax-free."
+    },
+    {
+      "id": 30,
+      "question": "What does it mean when a stock has high volume?",
+      "answer": "High volume means a large number of shares were traded in a session. It usually indicates strong interest and better liquidity for entering or exiting positions."
+    },
+    {
+      "id": 31,
+      "question": "What is a bear market in the US stock market?",
+      "answer": "A bear market is when major US indices (S&P 500, Nasdaq) fall 20% or more from recent highs. It usually signals economic slowdown or recession fears."
+    },
+    {
+      "id": 32,
+      "question": "What is a bull market in the US stock market?",
+      "answer": "A bull market is when major US indices rise 20% or more from recent lows. It reflects investor optimism and economic growth."
+    },
+    {
+      "id": 33,
+      "question": "What are exchange-traded funds (ETFs) in the US?",
+      "answer": "ETFs are baskets of US stocks that trade on exchanges like individual stocks. Popular ones track the S&P 500 (SPY/VOO) or Nasdaq-100 (QQQ)."
+    },
+    {
+      "id": 34,
+      "question": "What is the bid-ask spread in US stock trading?",
+      "answer": "The bid is the highest price buyers will pay; the ask is the lowest price sellers will accept. The spread is the difference and is a hidden trading cost."
+    },
+    {
+      "id": 35,
+      "question": "What is insider trading and is it legal in the US?",
+      "answer": "Insider trading is buying or selling stock based on material non-public information. It is illegal in the US and heavily enforced by the SEC."
+    },
+    {
+      "id": 36,
+      "question": "What are the trading hours for the US stock market?",
+      "answer": "Regular trading hours are 9:30 AM to 4:00 PM Eastern Time, Monday through Friday (excluding holidays)."
+    },
+    {
+      "id": 37,
+      "question": "What is a short sale in US stocks?",
+      "answer": "Short selling means borrowing shares, selling them, and later buying them back (hopefully cheaper) to return them. Profits come from price drops."
+    },
+    {
+      "id": 38,
+      "question": "What is the T+1 settlement rule in the US?",
+      "answer": "Since May 2024, US stock trades settle in one business day (T+1). You must have funds or shares settled before you can trade them again."
+    },
+    {
+      "id": 39,
+      "question": "What are blue-chip stocks?",
+      "answer": "Blue-chip stocks are large, stable US companies with strong financials and long dividend histories (e.g., Apple, Microsoft, Visa, Johnson & Johnson)."
+    },
+    {
+      "id": 40,
+      "question": "What is dollar-cost averaging (DCA) strategy for US stocks?",
+      "answer": "DCA is investing a fixed amount on a schedule (e.g., $300 every month) into S&P 500 or Nasdaq ETFs regardless of price. It reduces timing risk."
+    },
+    {
+      "id": 41,
+      "question": "What is swing trading in the US stock market?",
+      "answer": "Swing trading holds positions for several days to weeks, capturing short- to medium-term price swings using technical analysis."
+    },
+    {
+      "id": 42,
+      "question": "What is day trading strategy for US stocks?",
+      "answer": "Day trading buys and sells the same stock within one trading day. It requires pattern day trader status if under $25,000 and strict risk rules."
+    },
+    {
+      "id": 43,
+      "question": "What is value investing in US stocks?",
+      "answer": "Value investing buys stocks trading below their intrinsic value based on fundamentals (low P/E, strong balance sheet). Popularized by Warren Buffett."
+    },
+    {
+      "id": 44,
+      "question": "What is growth investing strategy?",
+      "answer": "Growth investing buys fast-growing US companies (often tech) even at high valuations, betting on future earnings expansion (e.g., Nvidia, Amazon)."
+    },
+    {
+      "id": 45,
+      "question": "What is momentum trading in US stocks?",
+      "answer": "Momentum trading buys stocks showing strong upward price and volume trends, expecting the trend to continue in the short term."
+    },
+    {
+      "id": 46,
+      "question": "What is the covered call strategy?",
+      "answer": "You own 100 shares of a US stock and sell call options against them to collect premium income while still holding the shares."
+    },
+    {
+      "id": 47,
+      "question": "What is the wheel options strategy?",
+      "answer": "The wheel sells cash-secured puts until assigned, then sells covered calls on the shares until called away, repeating the cycle for income."
+    },
+    {
+      "id": 48,
+      "question": "What is mean-reversion trading?",
+      "answer": "Mean-reversion bets that a stock’s price will return to its historical average after extreme moves, using indicators like Bollinger Bands."
+    },
+    {
+      "id": 49,
+      "question": "What is scalping strategy in US stocks?",
+      "answer": "Scalping takes many small profits from tiny price changes throughout the day, usually using Level 2 data and high leverage."
+    },
+    {
+      "id": 50,
+      "question": "What is position trading?",
+      "answer": "Position trading holds US stocks for weeks to months based on bigger trends and fundamentals rather than daily noise."
+    },
+    {
+      "id": 51,
+      "question": "What is the buy-and-hold strategy?",
+      "answer": "Buy-and-hold means purchasing quality US stocks or ETFs and keeping them for years or decades, ignoring short-term volatility."
+    },
+    {
+      "id": 52,
+      "question": "What is pairs trading strategy?",
+      "answer": "Pairs trading goes long one US stock and short a highly correlated one when their price relationship diverges, betting on convergence."
+    },
+    {
+      "id": 53,
+      "question": "What is dividend growth investing?",
+      "answer": "Dividend growth investing buys companies that consistently raise dividends (dividend aristocrats) for compounding income over time."
+    },
+    {
+      "id": 54,
+      "question": "What is the 60/40 portfolio strategy?",
+      "answer": "The 60/40 allocates 60% to US stocks (or stock ETFs) and 40% to bonds for balanced growth with lower volatility."
+    },
+    {
+      "id": 55,
+      "question": "What is contrarian investing in US stocks?",
+      "answer": "Contrarian investing buys stocks when most investors are fearful and sells when everyone is greedy."
+    },
+    {
+      "id": 56,
+      "question": "What is the CAN SLIM strategy?",
+      "answer": "CAN SLIM (by William O’Neil) looks for stocks with Current earnings growth, Annual growth, New highs, Supply/demand, Leader, Institutional sponsorship, and Market direction."
+    },
+    {
+      "id": 57,
+      "question": "What is the iron condor options strategy?",
+      "answer": "Iron condor sells an out-of-the-money call spread and put spread on the same US stock or index, profiting from low volatility."
+    },
+    {
+      "id": 58,
+      "question": "What is the Simple Moving Average (SMA) indicator?",
+      "answer": "SMA averages closing prices over a set period (e.g., 50-day or 200-day). It smooths price action and shows trend direction in US stocks."
+    },
+    {
+      "id": 59,
+      "question": "What is the Exponential Moving Average (EMA)?",
+      "answer": "EMA gives more weight to recent prices than SMA. The 12-day and 26-day EMAs are widely used for short-term US stock trends."
+    },
+    {
+      "id": 60,
+      "question": "What is the Relative Strength Index (RSI)?",
+      "answer": "RSI measures speed and change of price movements on a 0–100 scale. Above 70 = overbought; below 30 = oversold in US stocks."
+    },
+    {
+      "id": 61,
+      "question": "What is the Moving Average Convergence Divergence (MACD)?",
+      "answer": "MACD shows the relationship between two EMAs. Crossovers and divergences signal potential buy/sell opportunities in US stocks."
+    },
+    {
+      "id": 62,
+      "question": "What are Bollinger Bands?",
+      "answer": "Bollinger Bands consist of a middle SMA and two standard-deviation bands. Prices touching the upper band may signal overbought conditions."
+    },
+    {
+      "id": 63,
+      "question": "What is the Average True Range (ATR) indicator?",
+      "answer": "ATR measures market volatility. It helps set stop-loss distances for US stock trades based on recent price swings."
+    },
+    {
+      "id": 64,
+      "question": "What is the Stochastic Oscillator?",
+      "answer": "Stochastic compares a stock’s closing price to its recent price range. Readings above 80 = overbought; below 20 = oversold."
+    },
+    {
+      "id": 65,
+      "question": "What is the On-Balance Volume (OBV) indicator?",
+      "answer": "OBV tracks volume flow to confirm price trends. Rising OBV with rising price confirms strong buying pressure in US stocks."
+    },
+    {
+      "id": 66,
+      "question": "What is the Fibonacci retracement tool?",
+      "answer": "Fibonacci retracement levels (23.6%, 38.2%, 50%, 61.8%) help identify potential support and resistance during US stock pullbacks."
+    },
+    {
+      "id": 67,
+      "question": "What is the Ichimoku Cloud?",
+      "answer": "Ichimoku Cloud is a Japanese indicator showing support/resistance, trend direction, and momentum all in one view for US stocks."
+    },
+    {
+      "id": 68,
+      "question": "What is the Volume Weighted Average Price (VWAP)?",
+      "answer": "VWAP shows the average price a stock has traded at throughout the day weighted by volume. Day traders use it as a benchmark."
+    },
+    {
+      "id": 69,
+      "question": "What is the Parabolic SAR indicator?",
+      "answer": "Parabolic SAR places dots above or below price to indicate trend direction and potential reversal points in US stocks."
+    },
+    {
+      "id": 70,
+      "question": "What is the Aroon indicator?",
+      "answer": "Aroon identifies trend changes and strength. Aroon Up crossing above Aroon Down signals a new uptrend."
+    },
+    {
+      "id": 71,
+      "question": "What is the Chaikin Money Flow (CMF)?",
+      "answer": "CMF measures buying and selling pressure over 20–21 periods using price and volume for US stocks."
+    },
+    {
+      "id": 72,
+      "question": "What is the ADX (Average Directional Index)?",
+      "answer": "ADX measures trend strength (not direction). Above 25 usually indicates a strong trend in US stocks."
+    },
+    {
+      "id": 73,
+      "question": "What is the Commodity Channel Index (CCI)?",
+      "answer": "CCI identifies cyclical trends. Above +100 = overbought; below –100 = oversold in US stock trading."
+    },
+    {
+      "id": 74,
+      "question": "What is the Williams %R indicator?",
+      "answer": "Williams %R is a momentum oscillator similar to Stochastic. Readings below –80 = oversold; above –20 = overbought."
+    },
+    {
+      "id": 75,
+      "question": "What is the Keltner Channel?",
+      "answer": "Keltner Channel uses ATR bands around an EMA. Breakouts above the upper band signal strong upward momentum."
+    },
+    {
+      "id": 76,
+      "question": "What is the Donchian Channel?",
+      "answer": "Donchian Channel plots the highest high and lowest low over N periods. Breakouts are used for trend-following in US stocks."
+    },
+    {
+      "id": 77,
+      "question": "What is the Rate of Change (ROC) indicator?",
+      "answer": "ROC measures the percentage change in price over a set period to identify momentum shifts."
+    },
+    {
+      "id": 78,
+      "question": "What is the Accumulation/Distribution Line (A/D)?",
+      "answer": "A/D uses volume and price to show whether money is flowing into or out of a US stock."
+    },
+    {
+      "id": 79,
+      "question": "What is the Money Flow Index (MFI)?",
+      "answer": "MFI is a volume-weighted RSI. Above 80 = overbought; below 20 = oversold."
+    },
+    {
+      "id": 80,
+      "question": "What is the Pivot Point indicator?",
+      "answer": "Pivot Points calculate potential support and resistance levels using the previous day’s high, low, and close for intraday US stock trading."
+    },
+    {
+      "id": 81,
+      "question": "What is the SuperTrend indicator?",
+      "answer": "SuperTrend uses ATR to plot a trend-following line. Price above the line = uptrend; below = downtrend."
+    },
+    {
+      "id": 82,
+      "question": "What is the Heikin Ashi technique?",
+      "answer": "Heikin Ashi smooths price candles to filter noise and highlight trends more clearly in US stock charts."
+    },
+    {
+      "id": 83,
+      "question": "What is long-term investing in US stocks?",
+      "answer": "Long-term investing holds US stocks or ETFs for 5+ years, focusing on compounding growth and dividends while ignoring daily volatility."
+    },
+    {
+      "id": 84,
+      "question": "What are the benefits of long-term investing?",
+      "answer": "Lower taxes (long-term capital gains rates), compounding returns, and reduced emotional trading decisions."
+    },
+    {
+      "id": 85,
+      "question": "What is short-term trading in US stocks?",
+      "answer": "Short-term trading holds positions from minutes to a few months, aiming to profit from quick price movements using technical analysis."
+    },
+    {
+      "id": 86,
+      "question": "How do taxes differ for long-term vs short-term US stock trades?",
+      "answer": "Long-term (held >1 year): 0–20% capital gains tax. Short-term (held ≤1 year): taxed as ordinary income (up to 37%)."
+    },
+    {
+      "id": 87,
+      "question": "What is the best long-term US stock strategy for beginners?",
+      "answer": "Buy low-cost S&P 500 ETFs (VOO or SPY) and hold for decades using dollar-cost averaging."
+    },
+    {
+      "id": 88,
+      "question": "Why is short-term trading riskier than long-term investing?",
+      "answer": "Short-term trading has higher transaction costs, emotional stress, pattern day trader restrictions, and short-term tax rates."
+    },
+    {
+      "id": 89,
+      "question": "Can you combine long-term and short-term approaches?",
+      "answer": "Yes. Many investors hold a core long-term portfolio (60–80%) and use a smaller portion for short-term tactical trades."
+    },
+    {
+      "id": 90,
+      "question": "What is the rule of 72 for long-term US stock growth?",
+      "answer": "Divide 72 by your expected annual return to estimate years needed to double your money (e.g., 72 ÷ 10% = 7.2 years)."
+    },
+    {
+      "id": 91,
+      "question": "Should beginners focus on long-term or short-term US stock investing?",
+      "answer": "Beginners should start with long-term buy-and-hold in diversified ETFs. Short-term trading requires more experience and capital."
+    },
+    {
+      "id": 92,
+      "question": "What is rebalancing in long-term investing?",
+      "answer": "Rebalancing means selling some winners and buying underperformers once or twice a year to keep your target allocation (e.g., 70% stocks / 30% bonds)."
+    },
+    {
+      "id": 93,
+      "question": "What are the risks of short-term trading?",
+      "answer": "Higher chance of losses due to fees, slippage, emotional decisions, and the fact that most day traders lose money."
+    },
+    {
+      "id": 94,
+      "question": "How does compounding work in long-term US stock investing?",
+      "answer": "Compounding lets your gains generate more gains over time. Reinvesting dividends in US stocks accelerates this effect."
+    },
+    {
+      "id": 95,
+      "question": "What is the difference between active and passive long-term investing?",
+      "answer": "Passive = buy index ETFs and hold. Active = picking individual US stocks or timing the market."
+    },
+    {
+      "id": 96,
+      "question": "Can short-term trading be tax-efficient?",
+      "answer": "Short-term trading is rarely tax-efficient because gains are taxed at ordinary income rates and wash-sale rules apply."
+    },
+    {
+      "id": 97,
+      "question": "What is a target-date fund for long-term retirement investing?",
+      "answer": "Target-date funds automatically adjust stock/bond mix as you approach retirement (e.g., 2050 fund). Very popular in 401(k)s."
+    },
+    {
+      "id": 98,
+      "question": "How much should you invest long-term vs short-term?",
+      "answer": "Most financial advisors recommend 80–90% long-term (retirement accounts) and only 10–20% for short-term trading."
+    },
+    {
+      "id": 99,
+      "question": "What is the 4% rule for long-term retirement withdrawals?",
+      "answer": "The 4% rule says you can safely withdraw 4% of your portfolio in the first year of retirement and adjust for inflation thereafter."
+    },
+    {
+      "id": 100,
+      "question": "Is short-term trading suitable for full-time income?",
+      "answer": "Only for experienced traders with sufficient capital. Most people lose money trying to trade full-time short-term."
+    },
+    {
+      "id": 101,
+      "question": "What is the best account type for long-term US stock investing?",
+      "answer": "Roth IRA or Traditional IRA for tax advantages, followed by taxable brokerage for flexibility."
+    },
+    {
+      "id": 102,
+      "question": "How does inflation affect long-term stock investing?",
+      "answer": "Stocks historically outpace inflation over long periods, protecting purchasing power better than cash or bonds."
+    },
+    {
+      "id": 103,
+      "question": "What is the difference between trading and investing in US stocks?",
+      "answer": "Trading focuses on short-term price action. Investing focuses on owning quality businesses for the long term."
+    },
+    {
+      "id": 104,
+      "question": "Should I use margin for long-term investing?",
+      "answer": "No. Margin is risky for long-term strategies because interest costs and margin calls can force sales at bad times."
+    },
+    {
+      "id": 105,
+      "question": "What is the best way to learn short-term trading?",
+      "answer": "Start with paper trading (simulated trading) to practice strategies without risking real money. Then start small with real capital."
+    },
+    {
+      "id": 106,
+      "question": "How do you manage risk in short-term trading?",
+      "answer": "Use stop-loss orders, limit position size, avoid overtrading, and never risk more than 1–2% of your capital on a single trade."
+    },
+    {
+      "id": 107,
+      "question": "What is the psychological difference between long-term investing and short-term trading?",
+      "answer": "Long-term investing requires patience and discipline to ignore short-term volatility. Short-term trading demands quick decision-making and emotional control."
+    },
+    {
+      "id": 108,
+      "question": "Can you be both a long-term investor and a short-term trader?",
+      "answer": "Yes. Many people have a core long-term portfolio for retirement and use a smaller portion of their capital for short-term trades."
+    },
+    {
+      "id": 109,
+      "question": "What is the best way to track long-term US stock investments?",
+      "answer": "Use portfolio tracking tools like Personal Capital, Morningstar, or your brokerage’s dashboard to monitor performance and asset allocation."
+    },
+    {
+      "id": 110,
+      "question": "How do you stay disciplined in long-term investing?",
+      "answer": "Set clear goals, automate contributions, avoid checking your portfolio daily, and focus on the big picture rather than short-term fluctuations."
+    },
+    {
+      "id": 111,
+      "question": "What is the best way to exit a long-term US stock position?",
+      "answer": "Consider selling when the company’s fundamentals deteriorate, when it becomes overvalued, or when you need to rebalance your portfolio."
+    },
+    {
+      "id": 112,
+      "question": "How do you handle losses in short-term trading?",
+      "answer": "Accept losses as part of the process, analyze what went wrong, and adjust your strategy. Never let losses grow by using stop-loss orders."
+    },
+    {
+      "id": 113,
+      "question": "What is the best way to diversify a long-term US stock portfolio?",
+      "answer": "Invest across different sectors, industries, and market caps. Consider adding international stocks and bonds for further diversification."
+    },
+    {
+      "id": 114,
+      "question": "How do you avoid emotional trading in short-term strategies?",
+      "answer": "Stick to a well-defined trading plan with clear entry/exit rules. Use stop-loss orders and avoid checking your positions too frequently."
+    },
+    {
+      "id": 115,
+      "question": "What is the best way to learn about long-term investing?",
+      "answer": "Read books like 'The Intelligent Investor' by Benjamin Graham, follow reputable financial news sources, and consider taking online courses on investing."
+    },
+    {
+      "id": 116,
+      "question": "What is the best way to learn about short-term trading?",
+      "answer": "Study technical analysis, follow experienced traders on social media, read books on trading psychology, and practice with paper trading before using real money."
+    },
+    {
+      "id": 117,
+      "question": "How do you balance risk and reward in long-term investing?",
+      "answer": "Choose a mix of stocks and bonds that matches your risk tolerance and time horizon. Rebalance periodically to maintain your desired allocation."
+    },
+    {
+      "id": 118,
+      "question": "How do you balance risk and reward in short-term trading?",
+      "answer": "Use strict risk management techniques like stop-loss orders, position sizing, and only risking a small percentage of your capital on each trade."
+    },
+    {
+      "id": 119,
+      "question": "What is the best way to stay informed about US stock market trends for long-term investing?",
+      "answer": "Follow financial news outlets, read quarterly earnings reports, and stay updated on economic indicators that can impact the stock market."
+    },
+    {
+      "id": 120,
+      "question": "What is the best way to stay informed about US stock market trends for short-term trading?",
+      "answer": "Use real-time news feeds, monitor pre-market and after-hours activity, and follow technical analysis indicators to identify short-term opportunities."
+    },
+    {
+        "id": 121,
+        "question": "How do you handle market volatility in long-term investing?",
+        "answer": "Stay focused on your long-term goals, avoid panic selling, and consider using market dips as buying opportunities to lower your average cost."
+    },
+    {
+        "id": 122,
+        "question": "How do you handle market volatility in short-term trading?",
+        "answer": "Use technical indicators to identify support and resistance levels, set appropriate stop-loss orders, and avoid trading during highly volatile news events."
+    },
+    {
+        "id": 123,
+        "question": "What is the best way to set goals for long-term investing?",
+        "answer": "Define your financial objectives (e.g., retirement, buying a home), determine your time horizon, and calculate how much you need to save and invest to reach those goals."
+    },
+    {
+        "id": 124,
+        "question": "What is the best way to set goals for short-term trading?",
+        "answer": "Set specific profit targets and risk limits for each trade, and have a clear plan for when to enter and exit positions based on technical analysis."
+    },
+    {
+        "id": 125,
+        "question": "How do you stay motivated in long-term investing?",
+        "answer": "Regularly review your progress towards your financial goals, celebrate milestones, and remind yourself of the benefits of long-term wealth building."
+    },
+    {
+        "id": 126,
+        "question": "How do you stay motivated in short-term trading?",
+        "answer": "Keep a trading journal to track your successes and learn from mistakes, and connect with a community of traders for support and motivation."
+    },
+    {
+        "id": 127,
+        "question": "What is the best way to manage emotions in long-term investing?",
+        "answer": "Focus on the long-term vision, avoid checking your portfolio too frequently, and practice mindfulness to stay calm during market fluctuations."
+    },
+    {
+        "id": 128,
+        "question": "What is the best way to manage emotions in short-term trading?",
+        "answer": "Stick to your trading plan, use stop-loss orders to limit losses, and take breaks if you find yourself becoming emotionally overwhelmed."
+    },
+    {
+        "id": 129,
+        "question": "How do you evaluate the performance of your long-term investments?",
+        "answer": "Compare your portfolio’s returns to relevant benchmarks (e.g., S&P 500) and assess whether you are on track to meet your financial goals."
+    },
+    {
+        "id": 130,
+        "question": "How do you evaluate the performance of your short-term trades?",
+        "answer": "Review your trading journal to analyze the profitability of each trade, identify patterns in your successes and failures, and adjust your strategy accordingly."
+    },
+    {
+        "id": 131,
+         "question": "What is the best way to learn from mistakes in long-term investing?",
+        "answer": "Reflect on your investment decisions, identify what went wrong, and use those lessons to improve your future investment choices."
+    },
+    {
+        "id": 132,
+        "question": "What is the best way to learn from mistakes in short-term trading?",
+        "answer": "Keep a detailed trading journal, analyze each losing trade to understand what went wrong, and adjust your strategy to avoid repeating the same mistakes."
+    },
+    {
+        "id": 133,
+        "question": "How do you stay disciplined in long-term investing during market downturns?",
+        "answer": "Remind yourself of your long-term goals, avoid panic selling, and consider using downturns as opportunities to buy quality stocks at lower prices."
+    },
+    {
+        "id": 134,
+        "question": "How do you stay disciplined in short-term trading during losing streaks?",
+        "answer": "Stick to your trading plan, use stop-loss orders to limit losses, and take breaks if you find yourself becoming emotionally overwhelmed."
+    },
+    {
+        "id": 135,
+        "question": "What is the best way to balance risk and reward in long-term investing?",
+        "answer": "Choose a mix of stocks and bonds that matches your risk tolerance and time horizon. Rebalance periodically to maintain your desired allocation."
+    },
+    {
+        "id": 136,
+        "question": "What is the best way to balance risk and reward in short-term trading?",
+        "answer": "Use strict risk management techniques like stop-loss orders, position sizing, and only risking a small percentage of your capital on each trade."
+    },
+    {
+        "id": 137,
+        "question": "How do you stay informed about market trends for long-term investing?",
+        "answer": "Follow financial news outlets, read quarterly earnings reports, and stay updated on economic indicators that can impact the stock market."
+    },
+    {
+        "id": 138,
+        "question": "How do you stay informed about market trends for short-term trading?",
+        "answer": "Use real-time news feeds, monitor pre-market and after-hours activity, and follow technical analysis indicators to identify short-term opportunities."
+    },
+    {
+        "id": 139,
+        "question": "How do you handle market volatility in long-term investing?",
+        "answer": "Stay focused on your long-term goals, avoid panic selling, and consider using market dips as buying opportunities to lower your average cost."
+    },
+    {
+        "id": 140,
+        "question": "How do you handle market volatility in short-term trading?",
+        "answer": "Use technical indicators to identify support and resistance levels, set appropriate stop-loss orders, and avoid trading during highly volatile news events."
+    },
+    {
+        "id": 141,
+        "question": "What is the best way to set goals for long-term investing?",
+        "answer": "Define your financial objectives (e.g., retirement, buying a home), determine your time horizon, and calculate how much you need to save and invest to reach those goals."
+    },
+    {
+        "id": 142,
+        "question": "What is the best way to set goals for short-term trading?",
+        "answer": "Set specific profit targets and risk limits for each trade, and have a clear plan for when to enter and exit positions based on technical analysis."
+    },
+    {
+        "id": 143,
+        "question": "How do you stay motivated in long-term investing?",
+        "answer": "Regularly review your progress towards your financial goals, celebrate milestones, and remind yourself of the benefits of long-term wealth building."
+    },
+    {
+        "id": 144,
+        "question": "How do you stay motivated in short-term trading?",
+        "answer": "Keep a trading journal to track your successes and learn from mistakes, and connect with a community of traders for support and motivation."
+    },
+    {
+        "id": 145,
+        "question": "What is the best way to manage emotions in long-term investing?",
+        "answer": "Focus on the long-term vision, avoid checking your portfolio too frequently, and practice mindfulness to stay calm during market fluctuations."
+    },
+    {
+        "id": 146,
+        "question": "What is the best way to manage emotions in short-term trading?",
+        "answer": "Stick to your trading plan, use stop-loss orders to limit losses, and take breaks if you find yourself becoming emotionally overwhelmed."
+    },
+    {
+        "id": 147,
+        "question": "How do you evaluate the performance of your long-term investments?",
+        "answer": "Compare your portfolio’s returns to relevant benchmarks (e.g., S&P 500) and assess whether you are on track to meet your financial goals."
+    },
+    {
+        "id": 148,
+        "question": "How do you evaluate the performance of your short-term trades?",
+        "answer": "Review your trading journal to analyze the profitability of each trade, identify patterns in your successes and failures, and adjust your strategy accordingly."
+    },
+    {
+        "id": 149,
+         "question": "What is the best way to learn from mistakes in long-term investing?",
+        "answer": "Reflect on your investment decisions, identify what went wrong, and use those lessons to improve your future investment choices."
+    },
+    {
+        "id": 150,
+        "question": "What is the best way to learn from mistakes in short-term trading?",
+        "answer": "Keep a detailed trading journal, analyze each losing trade to understand what went wrong, and adjust your strategy to avoid repeating the same mistakes."
+    },
+    {
+        "id": 151,
+        "question": "How do you stay disciplined in long-term investing during market downturns?",
+        "answer": "Remind yourself of your long-term goals, avoid panic selling, and consider using downturns as opportunities to buy quality stocks at lower prices."
+    },
+    {
+        "id": 152,
+        "question": "How do you stay disciplined in short-term trading during losing streaks?",
+        "answer": "Stick to your trading plan, use stop-loss orders to limit losses, and take breaks if you find yourself becoming emotionally overwhelmed."
+    },
+    {
+        "id": 153,
+        "question": "What is the best way to balance risk and reward in long-term investing?",
+        "answer": "Choose a mix of stocks and bonds that matches your risk tolerance and time horizon. Rebalance periodically to maintain your desired allocation."
+    },
+    {
+        "id": 154,
+        "question": "What is the best way to balance risk and reward in short-term trading?",
+        "answer": "Use strict risk management techniques like stop-loss orders, position sizing, and only risking a small percentage of your capital on each trade."
+    },
+    {
+        "id": 155,
+        "question": "How do you stay informed about market trends for long-term investing?",
+        "answer": "Follow financial news outlets, read quarterly earnings reports, and stay updated on economic indicators that can impact the stock market."
+    },
+    {
+        "id": 156,
+        "question": "How do you stay informed about market trends for short-term trading?",
+        "answer": "Use real-time news feeds, monitor pre-market and after-hours activity, and follow technical analysis indicators to identify short-term opportunities."
+    },
+    {
+        "id": 157,
+        "question": "How do you handle market volatility in long-term investing?",
+        "answer": "Stay focused on your long-term goals, avoid panic selling, and consider using market dips as buying opportunities to lower your average cost."
+    },
+    {
+        "id": 158,
+        "question": "How do you handle market volatility in short-term trading?",
+        "answer": "Use technical indicators to identify support and resistance levels, set appropriate stop-loss orders, and avoid trading during highly volatile news events."
+    },
+    {
+      "id": 105,
+      "question": "What is breakout trading strategy in US stocks?",
+      "answer": "Breakout trading buys a US stock when price moves above a key resistance level with high volume, expecting the move to continue."
+    },
+    {
+      "id": 106,
+      "question": "What is pullback trading strategy?",
+      "answer": "Pullback trading waits for a temporary dip in an uptrending US stock before entering, using support levels or moving averages."
+    },
+    {
+      "id": 107,
+      "question": "What is trend-following strategy in US stocks?",
+      "answer": "Trend-following uses indicators like 200-day SMA to ride the overall direction of major US indices or individual stocks."
+    },
+    {
+      "id": 108,
+      "question": "What is news-based trading strategy?",
+      "answer": "News trading enters US stocks quickly after major announcements like FDA approvals, mergers, or economic data releases."
+    },
+    {
+      "id": 109,
+      "question": "What is earnings momentum trading?",
+      "answer": "Earnings momentum trading buys US stocks right after they beat estimates and raises guidance, riding the post-earnings gap."
+    },
+    {
+      "id": 110,
+      "question": "What is sector rotation strategy?",
+      "answer": "Sector rotation moves money between US sectors (tech, energy, healthcare) based on economic cycles and Fed policy."
+    },
+    {
+      "id": 111,
+      "question": "What is the 52-week high breakout strategy?",
+      "answer": "Buy US stocks making new 52-week highs with strong volume, as momentum often carries them higher."
+    },
+    {
+      "id": 112,
+      "question": "What is gap-and-go trading strategy?",
+      "answer": "Gap-and-go buys US stocks that open higher after positive news and continues in the direction of the gap."
+    },
+    {
+      "id": 113,
+      "question": "What is mean-reversion options strategy?",
+      "answer": "Sell options on US stocks that have moved extremely far from their average, expecting them to revert."
+    },
+    {
+      "id": 114,
+      "question": "What is the golden cross strategy?",
+      "answer": "The golden cross buys when the 50-day SMA crosses above the 200-day SMA on US stock charts, signaling a new uptrend."
+    },
+    {
+      "id": 115,
+      "question": "What is the death cross strategy?",
+      "answer": "The death cross sells or shorts when the 50-day SMA crosses below the 200-day SMA, signaling a potential downtrend."
+    },
+    {
+      "id": 116,
+      "question": "What is algorithmic trading strategy?",
+      "answer": "Algorithmic trading uses computer programs to execute US stock trades based on predefined rules and speed."
+    },
+    {
+      "id": 117,
+      "question": "What is merger arbitrage strategy?",
+      "answer": "Merger arbitrage buys shares of a US company being acquired and shorts the acquirer to profit from the deal spread."
+    },
+    {
+      "id": 118,
+      "question": "What is the turtle trading strategy?",
+      "answer": "Turtle trading uses 20-day and 55-day breakouts with strict position sizing and stop-loss rules on US stocks."
+    },
+    {
+      "id": 119,
+      "question": "What is the O’Neil cup-with-handle pattern strategy?",
+      "answer": "Buy US stocks forming a cup-with-handle base pattern on weekly charts with strong fundamentals."
+    },
+    {
+      "id": 120,
+      "question": "What is volatility breakout strategy?",
+      "answer": "Volatility breakout enters US stocks when price breaks out of a tight range after low volatility periods."
+    },
+    {
+      "id": 121,
+      "question": "What is the 1% risk per trade strategy?",
+      "answer": "The 1% rule risks no more than 1% of total account capital on any single US stock trade."
+    },
+    {
+      "id": 122,
+      "question": "What is the trailing stop strategy?",
+      "answer": "Trailing stops automatically move up with gains on US stocks to lock in profits while letting winners run."
+    },
+    {
+      "id": 123,
+      "question": "What is the pyramid strategy in trading?",
+      "answer": "Pyramiding adds to a winning US stock position as price moves in your favor, increasing size gradually."
+    },
+    {
+      "id": 124,
+      "question": "What is the anti-martingale strategy?",
+      "answer": "Anti-martingale increases position size after wins and decreases after losses on US stock trades."
+    },
+    {
+      "id": 125,
+      "question": "What is the Kelly criterion strategy?",
+      "answer": "Kelly criterion calculates optimal position size based on win rate and reward-to-risk for US stock trading."
+    },
+    {
+      "id": 126,
+      "question": "What is the risk-reward ratio strategy?",
+      "answer": "Aim for at least 1:2 risk-reward on every US stock trade so one winner pays for two losers."
+    },
+    {
+      "id": 127,
+      "question": "What are Fibonacci retracement levels?",
+      "answer": "Fibonacci retracement draws horizontal lines at 23.6%, 38.2%, 50%, 61.8%, and 78.6% to find support and resistance during US stock pullbacks."
+    },
+    {
+      "id": 128,
+      "question": "How do you use support and resistance levels in US stocks?",
+      "answer": "Support is a price floor where buyers step in; resistance is a ceiling where sellers dominate. Breakouts above resistance or breakdowns below support signal new trends."
+    },
+    {
+      "id": 129,
+      "question": "What is Smart Money Concepts (SMC) in trading?",
+      "answer": "SMC analyzes how institutional traders manipulate price using order blocks, fair value gaps, and liquidity grabs on US stock charts."
+    },
+    {
+      "id": 130,
+      "question": "What is an order block in SMC?",
+      "answer": "An order block is the last bearish or bullish candle before a strong move — institutions defend these zones on US stocks."
+    },
+    {
+      "id": 131,
+      "question": "What is a fair value gap (FVG) in SMC?",
+      "answer": "A fair value gap is a 3-candle imbalance where price moved too fast, leaving an inefficiency that US stocks often revisit."
+    },
+    {
+      "id": 132,
+      "question": "What is liquidity grab in Smart Money Concepts?",
+      "answer": "Liquidity grab occurs when price sweeps stop-losses above highs or below lows to fuel the real institutional move."
+    },
+    {
+      "id": 133,
+      "question": "What is Volume Profile indicator?",
+      "answer": "Volume Profile shows trading activity at each price level. High-volume nodes act as support/resistance on US stocks."
+    },
+    {
+      "id": 134,
+      "question": "What is the Point and Figure chart?",
+      "answer": "Point and Figure ignores time and plots only price moves, filtering noise for clear trend and support/resistance signals."
+    },
+    {
+      "id": 135,
+      "question": "What is the Renko chart indicator?",
+      "answer": "Renko charts plot bricks only when price moves a fixed amount, removing small noise and highlighting trends in US stocks."
+    },
+    {
+      "id": 136,
+      "question": "What is the Order Flow footprint chart?",
+      "answer": "Order Flow shows exact buy/sell volume at each price level in real time for US stocks and futures."
+    },
+    {
+      "id": 137,
+      "question": "What is the Cumulative Delta indicator?",
+      "answer": "Cumulative Delta tracks the difference between buying and selling volume to reveal hidden strength or weakness."
+    },
+    {
+      "id": 138,
+      "question": "What is the Market Profile (TPO) indicator?",
+      "answer": "Market Profile shows time spent at each price level (TPO) and identifies value areas and single prints on US stocks."
+    },
+    {
+      "id": 139,
+      "question": "What is the Fractal indicator?",
+      "answer": "Fractals mark local highs and lows (5-bar pattern) to identify potential turning points in US stock trends."
+    },
+    {
+      "id": 140,
+      "question": "What is the Alligator indicator?",
+      "answer": "The Alligator uses three smoothed moving averages (jaw, teeth, lips) to show trend and sleeping/chomping phases."
+    },
+    {
+      "id": 141,
+      "question": "What is the Gann Fan?",
+      "answer": "Gann Fan draws angled lines at specific degrees to predict support, resistance, and time-price squares on US stocks."
+    },
+    {
+      "id": 142,
+      "question": "What is the Pitchfork indicator?",
+      "answer": "Andrews Pitchfork draws three parallel lines around a trend to find median lines and trading channels."
+    },
+    {
+      "id": 143,
+      "question": "What is the Coppock Curve?",
+      "answer": "Coppock Curve is a long-term momentum oscillator used to spot major bottoms in US stock indices."
+    },
+    {
+      "id": 144,
+      "question": "What is the Elder Ray Index?",
+      "answer": "Elder Ray measures bull and bear power separately using EMA and shows when buyers or sellers are in control."
+    },
+    {
+      "id": 145,
+      "question": "What is the Klinger Oscillator?",
+      "answer": "Klinger Oscillator uses volume and price to predict long-term money flow trends in US stocks."
+    },
+    {
+      "id": 146,
+      "question": "What is the Ultimate Oscillator?",
+      "answer": "Ultimate Oscillator combines three time frames to reduce false divergence signals in US stock trading."
+    },
+    {
+      "id": 147,
+      "question": "What is the Detrended Price Oscillator (DPO)?",
+      "answer": "DPO removes the long-term trend to focus on short-term cycles and overbought/oversold levels."
+    },
+    {
+      "id": 148,
+      "question": "What is the Chande Momentum Oscillator (CMO)?",
+      "answer": "CMO identifies overbought/oversold conditions with reduced lag compared to RSI."
+    },
+    {
+      "id": 149,
+      "question": "What is the Twiggs Money Flow?",
+      "answer": "Twiggs Money Flow is a volume-based indicator that smooths accumulation/distribution signals."
+    },
+    {
+      "id": 150,
+      "question": "What is the Ease of Movement (EMV) indicator?",
+      "answer": "EMV shows how easily price moves with volume — higher values indicate stronger trends."
+    },
+    {
+      "id": 151,
+      "question": "What is the Mass Index?",
+      "answer": "Mass Index detects reversals by measuring the narrowing and widening of the high-low range."
+    },
+    {
+      "id": 152,
+      "question": "What is the True Strength Index (TSI)?",
+      "answer": "TSI is a double-smoothed momentum oscillator that filters noise and shows trend direction."
+    },
+    {
+      "id": 153,
+      "question": "What is the Know Sure Thing (KST) indicator?",
+      "answer": "KST combines four time frames of rate-of-change to identify major trend changes in US stocks."
+    },
+    {
+      "id": 154,
+      "question": "What is the Schaff Trend Cycle?",
+      "answer": "Schaff Trend Cycle is a faster version of MACD designed to catch turning points earlier."
+    },
+    {
+      "id": 155,
+      "question": "What is fundamental analysis for US stocks?",
+      "answer": "Fundamental analysis evaluates a company’s financial health using SEC filings, earnings, balance sheets, and economic factors to decide intrinsic value."
+    },
+    {
+      "id": 156,
+      "question": "What is the price-to-earnings (P/E) ratio?",
+      "answer": "P/E ratio divides stock price by earnings per share. Lower P/E may indicate undervaluation; higher suggests growth expectations."
+    },
+    {
+      "id": 157,
+      "question": "What is EPS in fundamental analysis?",
+      "answer": "Earnings Per Share (EPS) is net income divided by outstanding shares. Rising EPS is a key sign of company health in US stocks."
+    },
+    {
+      "id": 158,
+      "question": "What is the debt-to-equity ratio?",
+      "answer": "Debt-to-equity compares total debt to shareholders’ equity. Lower ratios indicate less financial risk for US companies."
+    },
+    {
+      "id": 159,
+      "question": "What is return on equity (ROE)?",
+      "answer": "ROE measures how efficiently a company uses shareholders’ money. Above 15–20% is generally strong for US stocks."
+    },
+    {
+      "id": 160,
+      "question": "How do you read a 10-K filing?",
+      "answer": "The 10-K is the annual SEC report containing business description, financial statements, risks, and management discussion for US public companies."
+    },
+    {
+      "id": 161,
+      "question": "What is free cash flow (FCF) and why does it matter?",
+      "answer": "Free cash flow is cash left after capital expenditures. High and growing FCF allows dividends, buybacks, and growth in US stocks."
+    },
+    {
+      "id": 162,
+      "question": "What is the PEG ratio?",
+      "answer": "PEG divides P/E by expected earnings growth rate. A PEG under 1.0 often signals a fairly valued or undervalued growth stock."
+    },
+    {
+      "id": 163,
+      "question": "What is book value and price-to-book (P/B) ratio?",
+      "answer": "Book value is net assets per share. P/B compares market price to book value; below 1 may indicate undervaluation."
+    },
+    {
+      "id": 164,
+      "question": "What are moats in fundamental analysis?",
+      "answer": "Economic moats are competitive advantages (brand, network effect, patents) that protect long-term profits of US companies like Apple or Coca-Cola."
+    },
+    {
+      "id": 165,
+      "question": "What is the current ratio?",
+      "answer": "Current ratio measures ability to pay short-term obligations (current assets ÷ current liabilities). Above 1.0 is preferred."
+    },
+    {
+      "id": 166,
+      "question": "What is gross margin and operating margin?",
+      "answer": "Gross margin is revenue minus cost of goods sold. Operating margin is profit after operating expenses — both show profitability efficiency."
+    },
+    {
+      "id": 167,
+      "question": "How important are revenue growth trends?",
+      "answer": "Consistent revenue growth over 3–5 years signals a healthy US business and often drives stock price appreciation."
+    },
+    {
+      "id": 168,
+      "question": "What is insider ownership and why track it?",
+      "answer": "High insider ownership aligns management with shareholders. Significant buying by executives is often bullish."
+    },
+    {
+      "id": 169,
+      "question": "What is institutional ownership in US stocks?",
+      "answer": "Institutional ownership shows how much hedge funds, mutual funds, and pensions own — higher levels usually mean more stability."
+    },
+    {
+      "id": 170,
+      "question": "What is the Altman Z-score?",
+      "answer": "Altman Z-score predicts bankruptcy risk. Above 3.0 is safe; below 1.8 signals high distress for US companies."
+    },
+    {
+      "id": 171,
+      "question": "What is DuPont analysis?",
+      "answer": "DuPont breaks ROE into profit margin, asset turnover, and leverage to understand what drives returns."
+    },
+    {
+      "id": 172,
+      "question": "How do you analyze a balance sheet?",
+      "answer": "Check assets vs liabilities, debt levels, cash position, and working capital to assess financial strength of US companies."
+    },
+    {
+      "id": 173,
+      "question": "How do you analyze an income statement?",
+      "answer": "Focus on revenue growth, gross profit, operating income, net income, and EPS trends over multiple quarters."
+    },
+    {
+      "id": 174,
+      "question": "What is the cash conversion cycle?",
+      "answer": "Cash conversion cycle shows how quickly a company turns inventory and receivables into cash — shorter is better."
+    },
+    {
+      "id": 175,
+      "question": "What is shareholder yield?",
+      "answer": "Shareholder yield combines dividends, buybacks, and debt reduction as a percentage of market cap."
+    },
+    {
+      "id": 176,
+      "question": "What is the EV/EBITDA ratio?",
+      "answer": "Enterprise Value to EBITDA compares total company value to operating earnings — useful for comparing US stocks across industries."
+    },
+    {
+      "id": 177,
+      "question": "What are qualitative factors in fundamental analysis?",
+      "answer": "Qualitative factors include management quality, competitive position, brand strength, and industry trends."
+    },
+    {
+      "id": 178,
+      "question": "How does fundamental analysis differ from technical analysis?",
+      "answer": "Fundamental looks at company financials and value; technical analyzes price charts and volume patterns."
+    },
+    {
+      "id": 179,
+      "question": "What is a DCF valuation model?",
+      "answer": "Discounted Cash Flow estimates intrinsic value by projecting future free cash flows and discounting them to present value."
+    },
+  {
+      "id": 180,
+      "question": "What is a brokerage account in the US stock market?",
+      "answer": "A brokerage account is an account with a US-regulated broker that lets you buy and sell stocks, ETFs, and options on NYSE and NASDAQ. It can be cash, margin, IRA, or joint."
+    },
+    {
+      "id": 181,
+      "question": "What is the difference between a cash account and a margin account?",
+      "answer": "Cash accounts only let you trade with money you already have (settled funds). Margin accounts let you borrow from the broker (up to 50% for stocks) but have interest, PDT rules, and higher risk."
+    },
+    {
+      "id": 182,
+      "question": "How do I open a brokerage account for US stocks?",
+      "answer": "Choose a broker, provide SSN, ID, address, and bank info online. Approval usually takes 1–3 business days. Fund via ACH (free) or wire."
+    },
+    {
+      "id": 183,
+      "question": "What documents do I need to open a US brokerage account?",
+      "answer": "US citizens need SSN, government ID (driver’s license/passport), address proof, and sometimes employment info. Non-US residents may need W-8BEN form and passport."
+    },
+    {
+      "id": 184,
+      "question": "What are the main types of brokerage accounts for US stocks?",
+      "answer": "Taxable brokerage, Traditional IRA, Roth IRA, 401(k) rollover, joint, custodial (for kids), and margin accounts."
+    },
+    {
+      "id": 185,
+      "question": "How long does it take to fund a brokerage account?",
+      "answer": "ACH transfers from your bank are free and usually settle in 1–5 business days. Wires settle same-day but may have fees."
+    },
+    {
+      "id": 186,
+      "question": "What is the Pattern Day Trader (PDT) rule and which accounts does it apply to?",
+      "answer": "PDT applies only to margin accounts under $25,000. You are limited to 3 day trades in 5 business days. Cash accounts have no PDT rule but must wait for funds to settle."
+    },
+    {
+      "id": 187,
+      "question": "Can I trade US stocks in a Roth IRA?",
+      "answer": "Yes. Roth IRAs let you buy US stocks and ETFs with after-tax money. Growth and qualified withdrawals are tax-free."
+    },
+    {
+      "id": 188,
+      "question": "What are good-faith violations in a cash account?",
+      "answer": "A good-faith violation occurs when you sell a stock bought with unsettled funds before the funds settle. Three violations in 12 months can freeze your account for 90 days."
+    },
+    {
+      "id": 189,
+      "question": "How do brokers make money if stock trades are commission-free?",
+      "answer": "Most earn from payment for order flow (PFOF), interest on uninvested cash, margin loans, premium services, and options/contract fees."
+    },
+    {
+      "id": 190,
+      "question": "What is SIPC insurance and how much does it cover?",
+      "answer": "SIPC protects up to $500,000 per customer ($250,000 cash) if the broker fails. It does not protect against market losses."
+    },
+    {
+      "id": 191,
+      "question": "What is the difference between Level 1 and Level 2 data?",
+      "answer": "Level 1 shows best bid/ask and last price. Level 2 shows full order book with sizes from all market makers — useful for day traders."
+    },
+    {
+      "id": 192,
+      "question": "Can I trade pre-market and after-hours with most US brokers?",
+      "answer": "Yes. Most brokers allow pre-market (4:00–9:30 AM ET) and after-hours (4:00–8:00 PM ET), but liquidity is lower and spreads wider."
+    },
+    {
+      "id": 193,
+      "question": "What are extended-hours trading risks?",
+      "answer": "Lower volume means bigger price swings, wider spreads, and possible gaps at open. Not all orders (limit only) are supported."
+    },
+    {
+      "id": 194,
+      "question": "How do I transfer stocks from one US broker to another?",
+      "answer": "Use ACATS transfer. It usually takes 5–7 business days and is free at most brokers. Partial transfers are also possible."
+    },
+    {
+      "id": 195,
+      "question": "What is a fractional share and which brokers offer it?",
+      "answer": "Fractional shares let you buy part of a high-priced stock (e.g., $50 of NVDA). Offered by Fidelity, Schwab, Robinhood, Webull, and others."
+    },
+    {
+      "id": 196,
+      "question": "What should I look for when choosing a US stock broker?",
+      "answer": "Commission-free trades, platform reliability, research/tools, customer service, account types (IRA), margin rates, and extended-hours trading."
+    },
+    {
+      "id": 197,
+      "question": "Is Robinhood a good broker for beginners in US stocks?",
+      "answer": "Yes for simple mobile trading with $0 commissions and fractional shares. Less ideal for advanced research or retirement accounts."
+    },
+    {
+      "id": 198,
+      "question": "What is Thinkorswim and which broker offers it?",
+      "answer": "Thinkorswim is a powerful desktop/mobile platform for charting and options. It is now part of Charles Schwab (acquired TD Ameritrade)."
+    },
+    {
+      "id": 199,
+      "question": "Do all US brokers offer real-time quotes for free?",
+      "answer": "Yes. Real-time NYSE/NASDAQ quotes are free at all major brokers. Some charge for advanced Level 2 data."
+    },
+    {
+      "id": 200,
+      "question": "What are the top brokers for US stock trading in 2026?",
+      "answer": "Top-rated include Fidelity (best overall/research), Charles Schwab (customer service/fractional shares), Interactive Brokers (advanced/global), Robinhood (mobile beginners), and Webull (technical tools)."
+    },
+    {
+      "id": 201,
+      "question": "What is Interactive Brokers (IBKR) best known for?",
+      "answer": "Low commissions (IBKR Lite: $0 US stocks/ETFs), powerful Trader Workstation platform, global market access (150+ markets), and low margin rates. Great for active and international traders."
+    },
+    {
+      "id": 202,
+      "question": "Can non-US residents use Interactive Brokers for US stocks?",
+      "answer": "Yes. IBKR is available in 200+ countries, supports multiple currencies, and offers direct access to NYSE and NASDAQ with low fees."
+    },
+    {
+      "id": 203,
+      "question": "What is Freedom24 broker and is it good for US stocks?",
+      "answer": "Freedom24 (Freedom Finance Europe) is a CySEC-regulated European broker with direct access to NYSE, NASDAQ, and 15 global exchanges. Low commissions, IPO access, and no inactivity fees. Good for international investors but not ideal for high-frequency day trading."
+    },
+    {
+      "id": 204,
+      "question": "Does Freedom24 offer commission-free US stock trading?",
+      "answer": "It offers very low commissions on US stocks and sometimes zero-commission promotions for new clients. Check current rates as they can change."
+    },
+    {
+      "id": 205,
+      "question": "What is Amana (Amana Capital / amana app) and does it support US stocks?",
+      "answer": "Amana offers both physical US shares (2,100+) and leveraged stock CFDs commission-free. Regulated in multiple jurisdictions. Popular in MENA/UAE but some users report slower withdrawals. Suitable if you want an app-focused experience with global stocks."
+    },
+    {
+      "id": 206,
+      "question": "Is Amana suitable for US residents trading US stocks?",
+      "answer": "Amana is primarily for international clients. US residents usually prefer US-regulated brokers (Fidelity, Schwab, IBKR) for better SIPC protection and tax reporting."
+    },
+    {
+      "id": 207,
+      "question": "What makes Fidelity one of the best US stock brokers?",
+      "answer": "Excellent research, zero commissions, strong retirement accounts, fractional shares, and 24/7 phone support. Top-rated for beginners and long-term investors."
+    },
+    {
+      "id": 208,
+      "question": "Why do many people choose Charles Schwab for US stocks?",
+      "answer": "No account minimums, excellent customer service, fractional shares (Stock Slices), thinkorswim platform, and strong ETF selection."
+    },
+    {
+      "id": 209,
+      "question": "What are the pros of Robinhood for US stock trading?",
+      "answer": "Super-simple mobile app, $0 commissions, fractional shares from $1, 24-hour trading on some stocks, and easy IRA with 3% match (Gold)."
+    },
+    {
+      "id": 210,
+      "question": "What is Webull good for in US stock trading?",
+      "answer": "Advanced charting, extended hours, paper trading, and Level 2 data. Popular with technical and day traders."
+    },
+    {
+      "id": 211,
+      "question": "Is E*TRADE still a strong broker in 2026?",
+      "answer": "Yes. Owned by Morgan Stanley, it offers great education, Power E*TRADE platform, and solid options tools."
+    },
+    {
+      "id": 212,
+      "question": "How do I place a market order vs limit order on US stocks?",
+      "answer": "Market order executes immediately at current price. Limit order only executes at your price or better."
+    },
+    {
+      "id": 213,
+      "question": "What is a stop-loss order and how do I use it?",
+      "answer": "A stop-loss turns into a market order when price hits your trigger to limit losses. Set it 5–10% below entry for most trades."
+    },
+    {
+      "id": 214,
+      "question": "What are the most common order types for US stocks?",
+      "answer": "Market, Limit, Stop, Stop-Limit, Trailing Stop, and OCO (One Cancels Other)."
+    },
+    {
+      "id": 215,
+      "question": "How do I avoid good-faith violations when trading US stocks?",
+      "answer": "Wait for funds to fully settle (T+1) before selling in a cash account, or use a margin account."
+    },
+    {
+      "id": 216,
+      "question": "Can I day trade with less than $25,000 in the US?",
+      "answer": "Yes — but only in a cash account (with settlement waits) or by using a broker that offers a cash account workaround. Margin accounts under $25k are limited to 3 day trades per 5 days."
+    },
+    {
+      "id": 217,
+      "question": "What are the fees I should watch for besides commissions?",
+      "answer": "Options contract fees ($0.50–$0.65), wire transfer fees, regulatory fees, margin interest, and inactivity fees (most major brokers have none)."
+    },
+    {
+      "id": 218,
+      "question": "How do I check my broker’s order execution quality?",
+      "answer": "Look at the broker’s Rule 606 report (quarterly) or use tools like Bloomberg or third-party execution reports."
+    },
+    {
+      "id": 219,
+      "question": "What is payment for order flow (PFOF) and does it affect me?",
+      "answer": "Brokers route orders to market makers for a small fee. It can slightly worsen execution price but enables $0 commissions."
+    },
+    {
+      "id": 220,
+      "question": "How do I set up automatic investing in US stocks?",
+      "answer": "Most brokers let you set recurring buys (e.g., $100 of VOO every paycheck) for dollar-cost averaging."
+    },
+  {
+      "id": 221,
+      "question": "What is the best book for trading psychology in US stocks?",
+      "answer": "Trading in the Zone by Mark Douglas is the #1 recommendation. It teaches how to think in probabilities, control emotions, and develop a disciplined mindset essential for consistent US stock trading."
+    },
+    {
+      "id": 222,
+      "question": "What does Trading in the Zone teach about US stock trading?",
+      "answer": "It explains why most traders fail due to fear and greed, and how to trade without emotional attachment to individual trades on NYSE or NASDAQ stocks."
+    },
+    {
+      "id": 223,
+      "question": "Is The Intelligent Investor still relevant for US stock investors in 2026?",
+      "answer": "Yes. Benjamin Graham’s classic teaches value investing, margin of safety, and long-term thinking. Warren Buffett credits it as the foundation of his success with US stocks."
+    },
+    {
+      "id": 224,
+      "question": "What is the main idea of The Intelligent Investor?",
+      "answer": "Distinguish between investing (buying businesses with safety) and speculating. It emphasizes Mr. Market’s mood swings and buying with a margin of safety."
+    },
+    {
+      "id": 225,
+      "question": "Which book is considered the bible of technical analysis for US stocks?",
+      "answer": "Technical Analysis of the Financial Markets by John J. Murphy. It covers charts, patterns, indicators (RSI, MACD, Fibonacci), and how to apply them to NYSE and NASDAQ stocks."
+    },
+    {
+      "id": 226,
+      "question": "What does Reminiscences of a Stock Operator teach?",
+      "answer": "Based on Jesse Livermore’s life, it shows timeless lessons on speculation, reading tape, cutting losses, and letting winners run in US stock trading."
+    },
+    {
+      "id": 227,
+      "question": "Is How to Make Money in Stocks good for beginners?",
+      "answer": "Yes. William O’Neil’s CAN SLIM strategy teaches how to find winning US growth stocks using fundamentals and technical breakouts."
+    },
+    {
+      "id": 228,
+      "question": "What is CAN SLIM in How to Make Money in Stocks?",
+      "answer": "A system combining Current earnings, Annual growth, New highs, Supply/demand, Leader, Institutional sponsorship, and Market direction for selecting strong US stocks."
+    },
+    {
+      "id": 229,
+      "question": "Which book is best for options trading on US stocks?",
+      "answer": "Option Volatility and Pricing by Sheldon Natenberg. It is the standard reference for understanding Greeks, volatility, and practical options strategies."
+    },
+    {
+      "id": 230,
+      "question": "What is Market Wizards about?",
+      "answer": "Jack Schwager interviews legendary traders. It reveals their mindsets, strategies, and common traits for success in US futures, stocks, and options."
+    },
+    {
+      "id": 231,
+      "question": "Should I read The Little Book of Common Sense Investing?",
+      "answer": "Yes, especially for long-term US investors. John Bogle explains why low-cost index funds (like S&P 500 ETFs) beat most active stock pickers over time."
+    },
+    {
+      "id": 232,
+      "question": "What is A Random Walk Down Wall Street known for?",
+      "answer": "Burton Malkiel argues that stock prices are largely random and efficient, supporting passive index investing over trying to beat the US market."
+    },
+    {
+      "id": 233,
+      "question": "Which book teaches risk management for US day traders?",
+      "answer": "Trade Your Way to Financial Freedom by Van K. Tharp. It focuses on position sizing, expectancy, and creating a complete trading system."
+    },
+    {
+      "id": 234,
+      "question": "What is Japanese Candlestick Charting Techniques about?",
+      "answer": "Steve Nison introduced candlestick patterns to the West. It shows how to read reversal and continuation patterns on US stock charts."
+    },
+    {
+      "id": 235,
+      "question": "Is The Disciplined Trader worth reading?",
+      "answer": "Yes. Mark Douglas explains how to build mental discipline and overcome psychological barriers that cause most US traders to lose money."
+    },
+    {
+      "id": 236,
+      "question": "What does One Up on Wall Street by Peter Lynch teach?",
+      "answer": "How individual investors can beat professionals by investing in companies they understand (buy what you know) and looking for growth stocks."
+    },
+    {
+      "id": 237,
+      "question": "Which book is best for value investing in US stocks?",
+      "answer": "The Intelligent Investor by Benjamin Graham, or Security Analysis (more advanced) for deep fundamental analysis of balance sheets and intrinsic value."
+    },
+    {
+      "id": 238,
+      "question": "What is The Warren Buffett Way about?",
+      "answer": "Robert Hagstrom explains Buffett’s principles: economic moats, circle of competence, and buying wonderful companies at fair prices."
+    },
+    {
+      "id": 239,
+      "question": "Is Technical Analysis of Stock Trends still useful?",
+      "answer": "Yes. Edwards and Magee’s classic is the original bible on chart patterns like head-and-shoulders, triangles, and trendlines for US stocks."
+    },
+    {
+      "id": 240,
+      "question": "What psychology book helps with FOMO and revenge trading?",
+      "answer": "Trading in the Zone or The Psychology of Trading by Brett Steenbarger. Both address emotional control in fast-moving US markets."
+    },
+    {
+        "id": 241,
+        "question": "What is the best book for learning about ETFs and index funds?",
+        "answer": "The Bogleheads’ Guide to Investing by Taylor Larimore, Mel Lindauer, and Michael LeBoeuf. It covers the benefits of low-cost index funds and ETFs for US investors."
+    },
+    {
+        "id": 242,
+        "question": "Which book is best for learning about dividend investing in US stocks?",
+        "answer": "The Little Book of Dividend Investing by Charles Carlson. It explains how to build a portfolio of high-quality dividend-paying US stocks for income and growth."
+    },
+    {
+        "id": 243,
+        "question": "What is The Big Short about?",
+        "answer": "Michael Lewis’s book tells the story of traders who profited from the 2008 financial crisis by shorting subprime mortgage-backed securities."
+    },
+    {
+        "id": 244,
+        "question": "Is The Snowball: Warren Buffett and the Business of Life worth reading?",
+        "answer": "Yes. Alice Schroeder’s biography gives deep insights into Buffett’s life, philosophy, and how he built his fortune with US stocks."
+    },
+    {
+        "id": 245,
+        "question": "What is the best book for learning about options strategies on US stocks?",
+        "answer": "Options as a Strategic Investment by Lawrence G. McMillan. It covers a wide range of options strategies for different market conditions."
+    },
+    {
+        "id": 246,
+        "question": "Which book is best for learning about technical indicators for US stocks?",
+        "answer": "Technical Analysis of the Financial Markets by John J. Murphy. It explains how to use indicators like RSI, MACD, Bollinger Bands, and Fibonacci retracements."
+    },
+    {
+        "id": 247,
+        "question": "What is The Art of War and how does it apply to US stock trading?",
+        "answer": "Sun Tzu’s ancient text on strategy can be applied to trading by understanding market psychology, timing, and risk management in competitive US markets."
+    },
+    {
+        "id": 248,
+        "question": "Is The Alchemy of Finance by George Soros relevant for US stock traders?",
+        "answer": "Yes. Soros’s theory of reflexivity explains how market participants influence price and can lead to bubbles and crashes in US stocks."
+    },
+    {
+        "id": 249,
+        "question": "What is the best book for learning about algorithmic trading on US stocks?",
+        "answer": "Algorithmic Trading: Winning Strategies and Their Rationale by Ernest P. Chan. It covers how to develop and implement algorithmic strategies for US stock markets."
+    },
+    {
+        "id": 250,
+        "question": "Which book is best for learning about behavioral finance in US stocks?",
+        "answer": "Thinking, Fast and Slow by Daniel Kahneman. It explores cognitive biases that affect investor behavior and decision-making in US stock trading."
+    },
+  {
+    "id": 1,
+    "question": "What is the stock market?",
+    "answer": "The stock market is a platform where investors buy and sell shares of publicly traded companies."
+  },
+  {
+    "id": 2,
+    "question": "What is a stock?",
+    "answer": "A stock represents ownership in a company and a claim on part of its assets and earnings."
+  },
+  {
+    "id": 3,
+    "question": "What is a bull market?",
+    "answer": "A bull market is a period when stock prices are rising or expected to rise."
+  },
+  {
+    "id": 4,
+    "question": "What is a bear market?",
+    "answer": "A bear market is a period when stock prices are falling or expected to fall."
+  },
+  {
+    "id": 5,
+    "question": "What is diversification?",
+    "answer": "Diversification is the practice of spreading investments across different assets to reduce risk."
+  },
+  {
+    "id": 6,
+    "question": "What is a dividend?",
+    "answer": "A dividend is a portion of a company's earnings paid to shareholders."
+  },
+  {
+    "id": 7,
+    "question": "What is market capitalization?",
+    "answer": "Market capitalization is the total value of a company's outstanding shares."
+  },
+  {
+    "id": 8,
+    "question": "What is a blue-chip stock?",
+    "answer": "A blue-chip stock is from a large, reputable, and financially stable company."
+  },
+  {
+    "id": 9,
+    "question": "What is a growth stock?",
+    "answer": "A growth stock is a company expected to grow earnings faster than the market average."
+  },
+  {
+    "id": 10,
+    "question": "What is a value stock?",
+    "answer": "A value stock is considered undervalued relative to its fundamentals."
+  },
+  {
+    "id": 11,
+    "question": "What is technical analysis?",
+    "answer": "Technical analysis involves using charts and indicators to predict future price movements."
+  },
+  {
+    "id": 12,
+    "question": "What is fundamental analysis?",
+    "answer": "Fundamental analysis evaluates a company's financial health and economic factors."
+  },
+  {
+    "id": 13,
+    "question": "What is support level?",
+    "answer": "Support is a price level where buying interest prevents further decline."
+  },
+  {
+    "id": 14,
+    "question": "What is resistance level?",
+    "answer": "Resistance is a price level where selling pressure prevents further increase."
+  },
+  {
+    "id": 15,
+    "question": "What is RSI?",
+    "answer": "RSI is an indicator that measures whether an asset is overbought or oversold."
+  },
+  {
+    "id": 16,
+    "question": "What is MACD?",
+    "answer": "MACD is a trend-following momentum indicator showing relationship between moving averages."
+  },
+  {
+    "id": 17,
+    "question": "What is a moving average?",
+    "answer": "A moving average smooths price data to identify trends over time."
+  },
+  {
+    "id": 18,
+    "question": "What is day trading?",
+    "answer": "Day trading involves buying and selling assets within the same trading day."
+  },
+  {
+    "id": 19,
+    "question": "What is swing trading?",
+    "answer": "Swing trading involves holding trades for several days or weeks."
+  },
+  {
+    "id": 20,
+    "question": "What is scalping?",
+    "answer": "Scalping is a strategy focused on making small profits from quick trades."
+  },
+  {
+    "id": 21,
+    "question": "What is cryptocurrency?",
+    "answer": "Cryptocurrency is a digital currency secured by cryptography."
+  },
+  {
+    "id": 22,
+    "question": "What is Bitcoin?",
+    "answer": "Bitcoin is the first decentralized cryptocurrency."
+  },
+  {
+    "id": 23,
+    "question": "What is Ethereum?",
+    "answer": "Ethereum is a blockchain platform that supports smart contracts."
+  },
+  {
+    "id": 24,
+    "question": "What is a crypto wallet?",
+    "answer": "A crypto wallet stores private keys used to access digital assets."
+  },
+  {
+    "id": 25,
+    "question": "What is blockchain?",
+    "answer": "Blockchain is a decentralized ledger that records transactions securely."
+  },
+  {
+    "id": 26,
+    "question": "What is Forex trading?",
+    "answer": "Forex trading is the buying and selling of currency pairs."
+  },
+  {
+    "id": 27,
+    "question": "What is a currency pair?",
+    "answer": "A currency pair shows the exchange rate between two currencies."
+  },
+  {
+    "id": 28,
+    "question": "What is leverage?",
+    "answer": "Leverage allows traders to control larger positions with less capital."
+  },
+  {
+    "id": 29,
+    "question": "What is a pip?",
+    "answer": "A pip is the smallest price movement in Forex trading."
+  },
+  {
+    "id": 30,
+    "question": "What is a spread?",
+    "answer": "The spread is the difference between the bid and ask price."
+  },
+  {
+    "id": 31,
+    "question": "What is stop-loss?",
+    "answer": "A stop-loss automatically closes a trade at a predefined loss level."
+  },
+  {
+    "id": 32,
+    "question": "What is take-profit?",
+    "answer": "Take-profit closes a trade when a target profit level is reached."
+  },
+  {
+    "id": 33,
+    "question": "What is risk-reward ratio?",
+    "answer": "It compares the potential profit of a trade to its potential loss."
+  },
+  {
+    "id": 34,
+    "question": "What is liquidity?",
+    "answer": "Liquidity refers to how easily an asset can be bought or sold."
+  },
+  {
+    "id": 35,
+    "question": "What is volatility?",
+    "answer": "Volatility measures how much the price of an asset fluctuates."
+  },
+  {
+    "id": 36,
+    "question": "What is FOMO in trading?",
+    "answer": "FOMO is the fear of missing out on potential profits."
+  },
+  {
+    "id": 37,
+    "question": "What is FUD?",
+    "answer": "FUD stands for fear, uncertainty, and doubt in the market."
+  },
+  {
+    "id": 38,
+    "question": "What is backtesting?",
+    "answer": "Backtesting is testing a trading strategy using historical data."
+  },
+  {
+    "id": 39,
+    "question": "What is slippage?",
+    "answer": "Slippage is the difference between expected and actual trade price."
+  },
+  {
+    "id": 40,
+    "question": "What is an order book?",
+    "answer": "An order book lists all buy and sell orders for an asset."
+  },
+  {
+    "id": 41,
+    "question": "What is a limit order?",
+    "answer": "A limit order executes at a specific price or better."
+  },
+  {
+    "id": 42,
+    "question": "What is a market order?",
+    "answer": "A market order executes immediately at the current market price."
+  },
+  {
+    "id": 43,
+    "question": "What is arbitrage?",
+    "answer": "Arbitrage is profiting from price differences across markets."
+  },
+  {
+    "id": 44,
+    "question": "What is HODL?",
+    "answer": "HODL means holding assets long-term regardless of volatility."
+  },
+  {
+    "id": 45,
+    "question": "What is inflation?",
+    "answer": "Inflation is the increase in prices over time."
+  },
+  {
+    "id": 46,
+    "question": "What is interest rate?",
+    "answer": "Interest rate is the cost of borrowing money."
+  },
+  {
+    "id": 47,
+    "question": "What is GDP?",
+    "answer": "GDP measures the total economic output of a country."
+  },
+  {
+    "id": 48,
+    "question": "What is a trading bot?",
+    "answer": "A trading bot is software that automatically executes trades."
+  },
+  {
+    "id": 49,
+    "question": "What is overfitting?",
+    "answer": "Overfitting occurs when a model performs well on past data but poorly on new data."
+  },
+  {
+    "id": 50,
+    "question": "What is drawdown?",
+    "answer": "Drawdown is the decline from a peak in portfolio value."
+  }
+
+    
+  ]
+}
