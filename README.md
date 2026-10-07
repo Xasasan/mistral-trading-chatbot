@@ -4,7 +4,7 @@ Fine-tunes `mistralai/Mistral-7B-Instruct-v0.3` to answer US stock-market and tr
 then serves it in a Gradio app on Hugging Face Spaces.
 
 - Model: [Xasan01/mistral-trading-chatbot](https://huggingface.co/Xasan01/mistral-trading-chatbot)
-- Demo: [Space: Xasan01/Trading_chatbot](https://huggingface.co/spaces/Xasan01/Trading_chatbot) (`hf_space/app.py`)
+- Gradio app code: `hf_space/app.py` (the free CPU Space is offline: a 7B model needs a GPU, see below)
 
 ## Data
 | Source | Pairs |
@@ -28,3 +28,20 @@ That's overfitting, so the step-1600 checkpoint is the better model. Next time I
 ## Limitations
 - Loss is not answer quality. There's no held-out factual-accuracy eval yet.
 - Not financial advice.
+
+## Run it (needs a GPU with ~6 GB VRAM)
+```python
+import torch
+from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
+
+model_id = "Xasan01/mistral-trading-chatbot"
+bnb = BitsAndBytesConfig(load_in_4bit=True, bnb_4bit_quant_type="nf4", bnb_4bit_compute_dtype=torch.float16)
+tokenizer = AutoTokenizer.from_pretrained(model_id)
+model = AutoModelForCausalLM.from_pretrained(model_id, quantization_config=bnb, device_map="auto")
+
+prompt = "[INST] What is the wash-sale rule? [/INST]"
+inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
+out = model.generate(**inputs, max_new_tokens=200, temperature=0.2, do_sample=True)
+print(tokenizer.decode(out[0], skip_special_tokens=True).split("[/INST]")[-1].strip())
+```
+Works on a free Colab/Kaggle T4. Free CPU Spaces (16 GB RAM) can't hold the 7B model.
